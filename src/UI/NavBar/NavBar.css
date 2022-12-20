@@ -1,0 +1,42 @@
+.navbar {
+	display: flex;
+	align-items: center;
+	padding: 1.3rem;
+  background-color: #242424;
+	color: rgba(255, 255, 255, 0.87);
+}
+
+.navbar .navbar__logo {
+	width: 33.33%;
+}
+
+.navbar .navbar__menu {
+	width: 33.33%;
+}
+
+.navbar .navbar__tools {
+	width: 33.33%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.navbar .navbar__menu ul {
+	display: flex;
+	list-style: none;
+	justify-content: space-between;
+	padding: 0;
+	margin: 0;
+}
+
+.brand {
+	letter-spacing: 12px;
+	font-size: 32px;
+	font-weight: bolder;
+	color: #5fad56;
+}
+
+.salute {
+	font-style: italic;
+	margin-right: 20px;
+}
