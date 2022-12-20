@@ -11,6 +11,8 @@
   border-radius: 50%;
   background-color: #5fad56;
   border: none;
+
+  cursor: pointer;
 }
 
 .notification__button
