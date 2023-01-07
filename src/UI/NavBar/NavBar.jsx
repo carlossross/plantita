@@ -4,9 +4,6 @@ import './NavBar.css';
 export const NavBar = () => {
 	return (
 		<div className='navbar'>
-			<div className='navbar__logo'>
-				<span className='brand'>MiPlantita</span>
-			</div>
 			<div className='navbar__menu'>
 				<ul>
 					<li>
@@ -19,9 +16,6 @@ export const NavBar = () => {
 						<a>About</a>
 					</li>
 				</ul>
-			</div>
-			<div className='navbar__tools'>
-				<CartWidget />
 			</div>
 		</div>
 	);

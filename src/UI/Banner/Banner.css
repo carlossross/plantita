@@ -1,0 +1,13 @@
+.banner {
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+}
+.banner__img {
+  min-width: 100%;
+  min-height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
