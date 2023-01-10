@@ -37,3 +37,7 @@ a {
 	user-select: none;
 	cursor: pointer;
 }
+
+ul {
+	list-style: none;
+}

@@ -6,4 +6,9 @@
 	justify-content: space-between;
 	align-items: center;
 	color: rgba(255, 255, 255, 0.87);
+	position: fixed;
+  top: 0;
+  z-index: 10;
+  width: -webkit-fill-available;
+	width: -moz-available;
 }

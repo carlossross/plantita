@@ -1,0 +1,34 @@
+.card {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 10px;
+	align-items: center;
+	padding: 0;
+	transition: all .2s ease-in-out;
+}
+
+.card .card__name{
+	font-size: 1.1rem;
+	font-weight: 400;
+	text-align: center;
+}
+
+.card .card__price {
+	font-size: 1.3rem;
+	font-weight: 600;
+	color: red;
+}
+
+.card .card__brand {
+	font: 0.9rem;
+	font-weight: 200;
+}
+
+.card:hover {
+	transform: scale(1.1);
+}
+
+.card img {
+  height: 300px;
+}

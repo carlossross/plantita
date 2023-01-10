@@ -1,22 +1,21 @@
-import { CartWidget } from '../../components';
 import './NavBar.css';
 
 export const NavBar = () => {
 	return (
 		<div className='navbar'>
-			<div className='navbar__menu'>
+			<nav className='navbar__menu'>
 				<ul>
 					<li>
-						<a>Home</a>
+						<a>Nintendo</a>
 					</li>
 					<li>
-						<a>Cart</a>
+						<a>Play Station</a>
 					</li>
 					<li>
-						<a>About</a>
+						<a>XBox</a>
 					</li>
 				</ul>
-			</div>
+			</nav>
 		</div>
 	);
 };

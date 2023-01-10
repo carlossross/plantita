@@ -1,20 +1,36 @@
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
-import { ItemListContainer } from './Pages';
-import { NavBar } from './UI';
-import { Banner } from './UI/Banner/Banner';
-import { ToolBar } from './UI/ToolBar/ToolBar';
+import { Banner, NavBar, ToolBar } from './ui';
+import { ItemListView } from './views';
 
 function App() {
-	const name = 'Carlos';
 	return (
-		<div className='wrapper'>
-			<ToolBar/>
-			<Banner/>
-			<NavBar />
-			<main className='content'>
-				{/* <ItemListContainer name={name}/> */}
-			</main>
-		</div>
+		<>
+			<ToolBar />
+			<div className='wrapper'>
+				<Router>
+					<Banner />
+					<NavBar />
+					<main className='content'>
+						<Routes>
+							<Route path='/' element={<ItemListView />} />
+							<Route
+								path='/nintendo'
+								element={<ItemListView brand='nintendo' />}
+							/>
+							<Route
+								path='/playstation'
+								element={<ItemListView brand='playstation' />}
+							/>
+							<Route
+								path='/xbox'
+								element={<ItemListView brand='xbox' />}
+							/>
+						</Routes>
+					</main>
+				</Router>
+			</div>
+		</>
 	);
 }
 

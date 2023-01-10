@@ -1,1 +1,1 @@
-export { CartWidget } from './CartWidget/CartWidget';
+export { CartWidget } from './cartWidget/CartWidget';
