@@ -1,14 +1,14 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 import { Banner, NavBar, ToolBar } from './ui';
-import { ItemListView } from './views';
+import { ItemDetailView, ItemListView } from './views';
 
 function App() {
 	return (
 		<>
-			<ToolBar />
-			<div className='wrapper'>
-				<Router>
+			<Router>
+				<ToolBar />
+				<div className='wrapper'>
 					<Banner />
 					<NavBar />
 					<main className='content'>
@@ -22,14 +22,12 @@ function App() {
 								path='/playstation'
 								element={<ItemListView brand='playstation' />}
 							/>
-							<Route
-								path='/xbox'
-								element={<ItemListView brand='xbox' />}
-							/>
+							<Route path='/xbox' element={<ItemListView brand='xbox' />} />
+							<Route path=':brand/detail/:id' element={<ItemDetailView />} />
 						</Routes>
 					</main>
-				</Router>
-			</div>
+				</div>
+			</Router>
 		</>
 	);
 }

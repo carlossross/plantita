@@ -8,6 +8,15 @@
 	transition: all .2s ease-in-out;
 }
 
+.card__image__container {
+	width: 215px;
+	height: 300px;
+}
+
+.card__image__container img {
+	object-fit: contain;
+}
+
 .card .card__name{
 	font-size: 1.1rem;
 	font-weight: 400;
@@ -30,5 +39,6 @@
 }
 
 .card img {
+	width: 215px;
   height: 300px;
 }

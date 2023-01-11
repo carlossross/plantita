@@ -1,18 +1,38 @@
+import { NavLink } from 'react-router-dom';
 import './NavBar.css';
 
 export const NavBar = () => {
+	let activeStyle = {
+		textDecoration: 'underline',
+	};
+
 	return (
 		<div className='navbar'>
 			<nav className='navbar__menu'>
 				<ul>
 					<li>
-						<a>Nintendo</a>
+						<NavLink
+							style={({ isActive }) => (isActive ? activeStyle : undefined)}
+							to='/nintendo'
+						>
+							Nintendo
+						</NavLink>
 					</li>
 					<li>
-						<a>Play Station</a>
+						<NavLink
+							style={({ isActive }) => (isActive ? activeStyle : undefined)}
+							to='playstation'
+						>
+							Play Station
+						</NavLink>
 					</li>
 					<li>
-						<a>XBox</a>
+						<NavLink
+							style={({ isActive }) => (isActive ? activeStyle : undefined)}
+							to='xbox'
+						>
+							XBox
+						</NavLink>
 					</li>
 				</ul>
 			</nav>

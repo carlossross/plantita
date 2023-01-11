@@ -9,7 +9,7 @@
   height: 35px;
 
   border-radius: 50%;
-  background-color: #5fad56;
+  background-color: var(--main-color);
   border: none;
 
   cursor: pointer;

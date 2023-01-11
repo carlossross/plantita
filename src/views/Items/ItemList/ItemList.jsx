@@ -1,5 +1,3 @@
-import { useEffect, useState } from 'react';
-import { getData } from '../../../services/getData';
 import { ItemCard } from '../ItemCard/ItemCard';
 import './ItemList.css';
 
