@@ -1,0 +1,10 @@
+.nothing__container {
+	height: 400px;
+  display: flex;
+  align-items: center;
+}
+.nothing__label {
+	font-size: 6rem;
+	font-weight: 600;
+	color: rgba(0, 0, 0, 0.5);
+}

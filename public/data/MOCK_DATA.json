@@ -1,18 +1,18 @@
 [
 	{
 		"id": 1,
-		"name": "Brubaker",
+		"name": "Switch Oled - Splatoon 3",
 		"brand": {
 			"id": 1001,
 			"description": "nintendo"
 		},
 		"type": {
-			"id": 2001,
-			"description": "videogame"
+			"id": 2002,
+			"description": "console"
 		},
-		"detail": "Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.",
-		"price_in_cents": 4942,
-		"image": "http://dummyimage.com/450x550.png/cc0000/ffffff"
+		"detail": "Switch Oled version Splatoon 3.",
+		"price_in_cents": 25000,
+		"image": "https://carlossross.github.io/react-curso-img/splatoon-oled.jpeg"
 	},
 	{
 		"id": 2,
@@ -91,7 +91,7 @@
 	},
 	{
 		"id": 7,
-		"name": "Hostile Intentions",
+		"name": "The Legend of Zelda: Breath of the Wild",
 		"brand": {
 			"id": 1001,
 			"description": "nintendo"
@@ -100,9 +100,9 @@
 			"id": 2001,
 			"description": "videogame"
 		},
-		"detail": "Fusce consequat. Nulla nisl. Nunc nisl.",
-		"price_in_cents": 2526,
-		"image": "http://dummyimage.com/450x550.png/cc0000/ffffff"
+		"detail": "Las flipantes aventuras de zelda verde pero ahora en azul.",
+		"price_in_cents": 5500,
+		"image": "https://carlossross.github.io/react-curso-img/botw.jpeg"
 	},
 	{
 		"id": 8,
